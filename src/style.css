@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --light-gray: #f5f6f7;
+  --gray: #d0d0d5;
+  --dark-gray: #3b3b4f;
+  --blue: #1b1b32;
+  --dark-blue: #0a0a23;
+  --error: #a94442;
+  --danger-color: #850000;
+  --danger-background: #ffadad;
+}
+
+html,
+body {
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+#fcc-logo {
+  height: 30px;
+}
+
+h1 {
+  font-family: "Castoro Titling", serif;
+}
+
+form {
+}
